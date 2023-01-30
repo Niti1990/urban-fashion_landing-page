@@ -1,0 +1,94 @@
+body {
+	background-image: url('images/background.png');
+	background-repeat: no-repeat;
+	height: 100%;
+	background-size: cover;
+}
+
+.nav {
+	display: flex;
+	margin-top: 90px;
+	margin-left: 170px;
+}
+.list {
+	display: flex;
+	gap: 40px;
+
+	margin-left: 250px;
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	font-size: x-large;
+}
+a:hover {
+	background-color: pink;
+}
+.card-img {
+	margin-left: 300px;
+}
+.btn-collection {
+	margin-left: 400px;
+	margin-top: 150px;
+}
+.btn-collection > button {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: pink;
+	border: none;
+}
+.main-text1 {
+	margin-left: 400px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+.main-text2 {
+	margin-left: 400px;
+	margin-top: 20px;
+}
+.arrows {
+	margin-left: 400px;
+	margin-top: 20px;
+}
+.back-arrow {
+	height: 30px;
+}
+.right-arrow {
+	height: 30px;
+	margin-left: 20px;
+}
+
+.grid-container {
+	display: grid;
+	border: 5 px solid black;
+}
+.slide-bar-container {
+	display: flex;
+	margin-left: 150px;
+	flex-direction: column;
+}
+.style-icon-fb {
+	height: 20px;
+}
+.style-icon-In {
+	height: 20px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.style-icon-tw {
+	height: 20px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.style-icon-li {
+	height: 20px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.main-image {
+	padding-left: 620px;
+	position: absolute;
+
+	right: 0px;
+	top: 200px;
+}
